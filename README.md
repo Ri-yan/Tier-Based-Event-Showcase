@@ -39,15 +39,15 @@ It showcases events based on the logged-in user’s tier (Free, Silver, Gold, Pl
 
 1. Clone the repo:
 ```bash
-git clone <repo-url>
-cd tier-event-showcase
+git clone [<repo-url>](https://github.com/Ri-yan/Tier-Based-Event-Showcase.git)
+cd Tier-Based-Event-Showcase
 ```
 
 2. Add your Clerk and Supabase credentials to `.env.local` (based on `.env.example`)
 
 3. Install dependencies:
 ```bash
-npm install
+npm install --f
 ```
 
 4. Run locally:
@@ -55,11 +55,4 @@ npm install
 npm run dev
 ```
 
-## 🧪 Demo User Credentials
 
-| Tier     | Email                | Password |
-|----------|----------------------|----------|
-| Free     | free@demo.com        | password |
-| Silver   | silver@demo.com      | password |
-| Gold     | gold@demo.com        | password |
-| Platinum | platinum@demo.com    | password |
